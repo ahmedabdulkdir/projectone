@@ -1,0 +1,124 @@
+/* setting the margin and padding to zero  */
+* {
+  margin:0;
+  padding: 0;
+}
+
+/* giving the body a color and placing it in the centre */
+html {
+  background-color: #E5E2E2;
+  margin: auto;
+}
+
+body {
+  background-color: #E5E2E2;
+  margin: auto;
+}
+
+/* giving the header some value */
+header {
+  width: 100%;
+  background-color: #EEEEEE;
+  height: 70px;
+  margin: auto;
+}
+main {
+  margin: auto;
+  max-width: 1200px;
+  background-color: #E5E2E2;
+  /* background-color: red; */
+  height: 50vw;
+}
+main img {
+  display: block;
+  width: 70%;
+  margin-left: auto;
+  margin-right: auto;
+
+
+}
+
+main .content {
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  width: 70%;
+}
+
+main .Sumbit {
+  background-color: #2594EF;
+  color: white;
+  border: none;
+  border-radius: 10px;
+  padding: 15px;
+  margin-top: 10px;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+}
+nav {
+  width: 100%;
+  margin: auto;
+  height: 70px;
+}
+
+nav ul {
+list-style-type: none;
+margin-left: 490px;
+
+}
+nav ul img {
+  float: left;
+  margin-top: 15px;
+  padding-right: 15px;
+}
+
+
+nav ul li {
+float: left;
+}
+
+nav ul li a {
+  display: inline-block;
+  color: #707070;
+  text-align: center;
+  padding: 15px;
+  text-decoration: none;
+  line-height: 35px;
+}
+nav ul li a:hover {
+  color: #212121;
+}
+
+div {
+  width: 70%;
+  margin: auto;
+  max-width: 1200px;
+  background-color: rgba(0,0, 0,0.2);
+  border-left: 6px solid #2196F3;
+  height: 100px;
+  margin-top: 15px;
+  box-shadow: 4px 5px 15px black;
+
+}
+
+footer {
+  margin: auto;
+  max-width: 1200px;
+  margin-top:  100px;
+  border-top: 1px solid  #707070;
+  padding: 25px 0 25px 0;
+  box-sizing: border-box;
+}
+footer p {
+  color:  #707070;
+  display: inline;
+}
+footer .bottonright {
+  margin-left:  513px;
+}
+footer span {
+
+  font-size: 12px;
+
+}
